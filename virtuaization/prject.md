@@ -116,6 +116,26 @@
 - To copy in linux run on the line 
 `yy`
 
+
+## FILER AND IO REDIRECTION COMMANDS
+
+- To search for content i files,run
+`grep`
+
+- To disable the case sensitivity, run
+`grep -i`
+
+- To ensure the grep command get into directory, run
+`grep -iR `
+
+![](../virtuaization/images/reidrection.PNG)
+
+
+- To avoid searching for a particular word,run
+`grep -vi`
+
+![](../virtuaization/images/grep.PNG)
+
 - To paste above run
 ` P`
 - To paste below run
@@ -134,3 +154,18 @@
 
 
 
+- to count number of lines run
+`wc -l `
+![](../virtuaization/images/count-lines.PNG)
+
+
+- standard ouput redirection
+` ls >> /etc/passwd`
+![](../virtuaization/images/so.PNG)
+
+`uptime > /tmp/sysinfo.txt`
+![](../virtuaization/images/correct-redirect.PNG)
+
+
+- if you dont want to see any output in a file, you can reidret it to dev/null
+`yum install vim -y /dev/null`
