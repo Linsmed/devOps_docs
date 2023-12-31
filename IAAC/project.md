@@ -22,3 +22,11 @@
 
 - Finally, check the ip address on your web browser, you should see something like this:
 ![deployed-site](../IAAC/images/deployed-site.PNG)
+
+
+#### wordpress automation using ubuntu 20.04
+
+- cd into wordpress directory
+- run this command
+`vagrant init geerlingguy/ubuntu2004`
+![vagrant-box](../IAAC/images/vagrantbox.PNG)
