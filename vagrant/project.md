@@ -72,3 +72,9 @@
 
 - refresh the apache site and it should look like this
 ![hosted](../vagrant/images/host-site.PNG)
+
+
+
+#### VARIABLES
+
+![variable](../bashscripting/images/variable.PNG)
