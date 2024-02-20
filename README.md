@@ -1,2 +1,2 @@
 # devOps_docs
-## Here is my personnel self paced Devops learning journey
+## Here is my personal self paced Devops learning journey
