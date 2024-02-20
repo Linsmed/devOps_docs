@@ -181,3 +181,40 @@
 - if you run the command again, it will give you this output(idempotent behaviour)
 
 ![](../Ansible/image/recheck.PNG)
+
+
+## creating your own ansible configuration
+- copy all the content in exercise2 to exercise3, then use vim to create a file named ansible.cfg
+
+`vim ansible.cfg`
+
+![](../Ansible/image/ans-conf.PNG)
+
+- then run adhoc command
+`ansible -m ping web01`
+
+![result](../Ansible/image/result.PNG)
+
+
+## Creating ansible playbooks
+
+- Ansible playbooks returns yaml format,yaml is not a programming language,it is a data representation language
+
+- cp the content of exercise 3 to exercise4
+`cp -r exercise3 exercise4`
+
+- run this command
+
+`ansible -m ping all`
+![](../Ansible/image/piing-all.PNG)
+
+- In exercise4 directory,create your playbookfile,you can name it anyname,I will name it webdeploy.yml
+
+`vim webdeploy.yml`
+![playbook](../Ansible/image/playbook1.PNG)
+
+- now try and execute the playbook using this command
+
+`ansible-playbook webdeploy.yml`
+![playbook-eexec](../Ansible/image/playbook-execu1.PNG)
+
