@@ -218,3 +218,44 @@
 `ansible-playbook webdeploy.yml`
 ![playbook-eexec](../Ansible/image/playbook-execu1.PNG)
 
+
+
+### Writing ansible playbook part2
+
+- copy the content of exercise4 to exercise5
+- copy the content of webdeploy.yml into web_db_deploy.yml, and update the playbook
+![](../Ansible/image/playbook2.PNG)
+
+
+### Ansible setup modules and register
+
+run this command
+`ansible  -m setup web01`
+
+![](../Ansible/image/setup.PNG)
+
+- you can also filter out specific information
+
+`ansible -m setup -a "filter=ansible_os_family" web01`
+
+![](../Ansible/image/filter-ansible.PNG)
+
+![](../Ansible/image/ansible-filter2.PNG)
+
+
+## Setup modukes and variables
+- update your playbook as shown below
+
+![](../Ansible/image/vim-variable.PNG)
+
+- then run this commmand
+
+`ansible-playbook setup_print.yml`
+
+![](../Ansible/image/output-setup.PNG)
+
+![](../Ansible/image/accessing.PNG)
+
+
+
+## Variables on ansible
