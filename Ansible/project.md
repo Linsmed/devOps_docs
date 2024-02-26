@@ -258,4 +258,23 @@ run this command
 
 
 
-## Variables on ansible
+## Variables in ansible
+- create another folder named exercise8 and make a file in it called web_db_deploy.yml, use variables in it as shown below
+
+![variable](../Ansible/image/variable1.PNG)
+
+![variable2](../Ansible/image/variable2.PNG)
+
+- run this command
+
+`ansible-playbook web_db_deploy.yml`
+
+![](../Ansible/image/playbook-ansible.PNG)
+
+- And as seen above, debug prints out message such as print in python and echo in bash scripting
+
+![debug](../Ansible/image/debug.PNG)
+
+![variable](../Ansible/image/variable-precedence.PNG)
+
+
