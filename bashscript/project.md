@@ -27,7 +27,7 @@ arguments)
 `vim calculator.sh`
 
 - The command should be like this:
-![project](../bashcourse/images/project-1.PNG)
+![project](../bashscript/images/project-1.PNG)
 
 - give the file executable permission
 
@@ -36,9 +36,9 @@ arguments)
 ` run the script:
 `./calculator.sh + 15 10 5`
 
-![](../bashcourse/images/addition.PNG)
+![addition](../bashscript/images/addition.PNG)
 
-![](../bashcourse/images/arithmetic.PNG)
+![arithmetic](../bashscript/images/arithmetic.PNG)
 
 
 
